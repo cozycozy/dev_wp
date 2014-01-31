@@ -19,6 +19,7 @@ user 'wordpress' do
   home     '/home/wordpress'
   shell    '/bin/bash'
   supports :manage_home => true
+  password "$1$ayBb8Wl6$mDR8cPmYNI48B9ZCSX3RJ1"
   action   [:create]
 end
 
